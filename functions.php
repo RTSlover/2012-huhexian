@@ -1647,16 +1647,16 @@ if ( !function_exists( 'custom_adminbar_menu' ) ) {
 add_action( 'admin_bar_menu', 'custom_adminbar_menu', 100 );
 //WordPress 前台和后台指定不同 favicon（网站图标）
 //https://0xo.net/1209/
-if ( !function_exists( 'wp_admin_favicon' ) ) {
-	function wp_admin_favicon() {
-		if ( ox_get_option( 'custom_favicon_admin' ) ) {
-			echo ox_get_option( 'custom_favicon_admin' );
-		} else {
-			echo '<link rel="shortcut icon" href="'.get_bloginfo( "template_directory" ).'/images/favicon.ico">';
-		}
-	}
-}
-add_action( 'admin_head', 'wp_admin_favicon' );
+//if ( !function_exists( 'wp_admin_favicon' ) ) {
+//	function wp_admin_favicon() {
+//		if ( ox_get_option( 'custom_favicon_admin' ) ) {
+//			echo ox_get_option( 'custom_favicon_admin' );
+//		} else {
+//			echo '<link rel="shortcut icon" href="'.get_bloginfo( "template_directory" ).'/images/favicon.ico">';
+//		}
+//	}
+//}
+//add_action( 'admin_head', 'wp_admin_favicon' );
 
 //WordPress 站点图标 site_icon hook
 //function theme_filter_get_site_icon_url( $url, $size, $blog_id ) {
