@@ -10,7 +10,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php if ( ox_get_option( 'footerinfo_first' ) ) { echo ox_get_option( 'footerinfo_first' ); } ?>
-			<p>&copy; 2021 - <?php echo date( "Y" ); ?>  <a href="https://226000.xyz">226000</a>.<br>Theme by<a href="https://github.com/huhexian/2012-huhexian">Twenty Twelve</a>│本站禁止任何形式的文章转载<br><?php echo allwords(); ?>
+			<p>&copy; 2021 - <?php echo date( "Y" ); ?>  <a href="https://226000.xyz">226000</a>.<br>Theme by <a href="https://github.com/huhexian/2012-huhexian">Twenty Twelve</a>│本站禁止任何形式的文章转载<br><?php echo allwords(); ?>
 </p>
 		</div><!-- .site-info -->
 		<?php if ( ox_get_option( 'footerinfo' ) ) : ?>
