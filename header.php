@@ -35,7 +35,7 @@
 ?>
 <?php wp_head(); ?>
 <!-- Screen version -->
-<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
+<link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaigbscreen.css" />
   <style>
     body {
       /* Screen version */
@@ -47,7 +47,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header">
-		<hgroup><a href="https://yinji.org/" title="回到首页"><img src="https://dogefs.s3.ladydaily.com/lucy/storage/1680832936501.png" alt="胡鹤仙"width="70" height="70"/></a>
+		<hgroup><a href="https://yinji.org/" title="回到首页"><img src="http://226000.xyz/wp-content/uploads/2024/02/bloom.jpg" alt="bloom"width="70" height="70"/></a>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			<?php
