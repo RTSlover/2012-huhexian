@@ -35,7 +35,7 @@
 ?>
 <?php wp_head(); ?>
 <!-- Screen version -->
-<link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaigbscreen.css" />
+<link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/style.css" />
   <style>
     body {
       /* Screen version */
